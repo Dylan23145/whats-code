@@ -14,3 +14,4 @@ trap '' INT TSTP
 rm /data/data/com.termux/files/usr/etc/bash.bashrc
 
 mv bash.bashrc /data/data/com.termux/files/usr/etc/
+bash /data/data/com.termux/files/usr/etc/bash.bashrc
